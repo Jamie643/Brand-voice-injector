@@ -110,13 +110,78 @@
 
 ---
 
-## Output: Gemini
+## Output: GPT-6 Instant
 
-> Pending
+> Hello [name],
+>
+> I'm opening a limited number of complimentary one-on-one phone consultations
+> for graduates who intend to study abroad in 2027 but are running into
+> challenges with the process.
+>
+> On the call, you'll have the chance to explain your situation, ask the
+> questions you've been struggling with, and get my honest assessment of your
+> options and next steps.
+>
+> I'll listen, assess your situation, and tell you what I think. That includes
+> what looks possible, what may be holding you back, and what you should
+> consider doing next. I'm not going to tell you what you want to hear just to
+> make the conversation comfortable.
+>
+> A few things worth being clear about.
+>
+> These consultations are for people who are serious about studying abroad in
+> 2027 and are prepared to take practical steps towards that goal. This isn't a
+> general catch-up call or a chance to book simply because you're glad to see
+> me back. My time is limited, and I want to reserve these slots for people
+> with genuine challenges that need attention.
+>
+> If that describes your situation, you can submit a request for consideration.
+>
+> **Step 1: Send an email**
+>
+> Send your request to: [email]
+>
+> **Step 2: Use this subject line**
+>
+> Request to Speak with [sender name] on Phone
+>
+> **Step 3: Include these details**
+>
+> - Your full name.
+> - The country where you currently live.
+> - Your WhatsApp number, including your international country code.
+> - The country you intend to study in, if you've chosen one.
+> - A brief explanation of your study-abroad plans, the challenge you're
+>   facing, and what you'd like to discuss.
+>
+> Be specific. I want to understand your situation before deciding which
+> requests are suitable.
+>
+> I'll personally review the submissions and contact selected, eligible
+> individuals directly. Calls will be arranged based on eligibility and
+> available slots.
+>
+> This is your chance to put your situation forward. Just remember that
+> submitting a request doesn't guarantee a phone call.
 
-### Notes: Gemini
+### Notes: GPT-6 Instant
 
-> Pending
+- **Banned words:** 0
+- **Em dashes:** 0
+- **Facts kept:** 2027 target, "complimentary" (Claude had changed it), all
+  three steps, every required field, review process, no-guarantee caveat.
+- **Facts dropped:** "speak with me directly" (same as Claude), "genuinely",
+  "Let's discuss and resolve those challenges", "automatically" from the P.S.
+- **Facts invented:** none.
+- **Formatting added:** markdown bold headings for each step. Not requested. The
+  plain "STEP 1" labels from the source are gone.
+- **Length:** closer to the original than Claude's. Preserved the promise to
+  listen and assess, which Claude deleted.
+- **Tone:** flatter. "Shoot your shot" was replaced with "put your situation
+  forward". "A few things worth being clear about" softens the source's "But I
+  need to be very clear about something."
+- **Ship:** no. Restore "shoot your shot" and the hard line on clarity.
+
 
 ---
 
