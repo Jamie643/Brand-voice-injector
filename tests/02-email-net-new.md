@@ -93,13 +93,38 @@
 
 ---
 
-## Output: ChatGPT
+## Output: GPT-6 Instant
 
-> Pending
+> Hello everyone,
+>
+> Tandem has provided Christmas gifts for staff and shareholders as part of
+> this year's celebrations.
+>
+> You can choose one of two options:
+>
+> - A voucher worth $40k.
+> - A bag of rice and 3 litres of vegetable oil.
+>
+> Please let us know which option you'd prefer so we can make the necessary
+> arrangements.
+>
+> Happy holidays from all of us at Tandem.
 
-### Notes: ChatGPT
+### Notes: GPT-6 Instant
 
-> Pending
+- **Banned words:** 0. "make the necessary arrangements" is filler-adjacent but
+  not on the list.
+- **Em dashes:** 0
+- **Facts kept:** voucher value ($40k), rice and oil, both options
+- **Facts invented:** none
+- **Guardrail failure (soft):** no bracketed placeholders. The prompt instructs
+  bracketed notes when a needed fact is missing. GPT silently wrote around the
+  gap instead. The email has no deadline, no reply path and no sender, and
+  nothing signals that to the reader. It reads complete and isn't.
+- **Length:** shorter than Claude's. One paragraph, bullets, sign-off.
+- **Tone:** off voice. No dry line anywhere. "Happy holidays from all of us at
+  Tandem" is warmth theatre, which the voice block rules out.
+- **Ship:** no. Missing a deadline and a reply path, and the voice is generic.
 
 ---
 
