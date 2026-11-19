@@ -103,13 +103,41 @@
 
 ---
 
-## Output: Kimi
+## Output: Kimi Instant High
 
-> Pending
+> It's Christmas at Tandem, and this year the company is giving everyone a
+> gift, staff and shareholders included. You get to choose one of two options:
+> a $40k voucher, or a bag of rice and 3 litres of vegetable oil.
+>
+> That's the full menu. [Note: add how and by when people should submit their
+> choice, and when the gifts will be delivered.]
+>
+> Reply with your pick [by the deadline in the note above] and we'll handle
+> the rest.
 
-### Notes: Kimi
+### Notes: Kimi Instant High
 
-> Pending
+- **Banned words:** 0
+- **Em dashes:** 0
+- **Facts kept:** $40k voucher, rice and oil, both options
+- **Facts invented:** none
+- **Placeholder approach:** a third interpretation of the bracketed-note rule.
+  Claude put inline placeholders in the body. GPT wrote around the gap
+  silently. Kimi wrote a **meta-note to the writer** ("[Note: add how and by
+  when...]") plus one awkward inline bracket ("[by the deadline in the note
+  above]").
+- **Assessment of the approach:** the meta-note names exactly what is missing,
+  which is the most helpful of the three for a writer. But it is commentary
+  inside the draft and has to be deleted before sending, and the inline
+  bracket is unusable as-is.
+- **Added:** "It's Christmas at Tandem" as framing. Not in the brief. Borderline
+  warmth theatre, but this is a Christmas email, so arguably earned.
+- **Tone:** "That's the full menu" is a good dry line. Warmer opener than the
+  other two models used.
+- **Length:** shortest of the three.
+- **Ship:** no. Needs the meta-note removed, the deadline filled and the inline
+  bracket resolved. But the meta-note is a good idea for a different reason:
+  see Summary.
 
 ---
 
