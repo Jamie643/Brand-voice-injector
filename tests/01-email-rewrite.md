@@ -195,13 +195,58 @@
 
 ---
 
-## Output: Kimi
+## Output: Kimi Instant High
 
-> Pending
+> Here's the deal. I'm opening a small number of free one-on-one phone
+> consultations for graduates who are set on studying abroad in 2027 and are
+> stuck on something. Bring me the problem that's been blocking you and I'll
+> give you honest feedback on your options and your next steps. I won't tell
+> you what you want to hear just to be nice.
+>
+> One thing before you write in: this is for people with real study-abroad
+> challenges who are ready to act on practical advice. It isn't a catch-up
+> call, and "book a slot because you're glad to see me back" doesn't count. My
+> time is limited, and these consultations go to the people who need them.
+>
+> If that's you, here's how to apply. Email [email] with the subject "Request
+> to Speak with [sender name] on Phone." Include your full name, the country
+> you currently live in, your WhatsApp number with the international country
+> code, the country you intend to study in (if you've chosen one), and a short
+> summary of your plans, the challenge you're facing, and what you want to
+> discuss. Be specific. I want to understand your situation before I decide
+> which requests fit. I review every request myself and contact the eligible
+> people directly. Calls are scheduled based on eligibility and slot
+> availability.
+>
+> P.S. Sending a request doesn't guarantee a phone call.
 
-### Notes: Kimi
+### Notes: Kimi Instant High
 
-> Pending
+- **Banned words:** 0
+- **Em dashes:** 0
+- **Facts kept:** 2027 target, eligibility criteria, email address, subject
+  line verbatim, all five required fields, review process, no-guarantee P.S.
+- **Facts dropped:** "genuinely" (became "set on"), "Let's discuss and resolve
+  those challenges", "speak with me directly", "what may be holding you back",
+  "what you should consider doing next", "automatically" from the P.S.
+- **Promise altered:** "I will listen, assess your situation" is gone. Replaced
+  with "Bring me the problem that's been blocking you and I'll give you honest
+  feedback". A different promise, not the same one shorter.
+- **Distinctive phrase dropped:** "Shoot your shot" removed. Second model to
+  drop it. Claude kept it.
+- **Formatting changed:** the three numbered steps collapsed into a single
+  paragraph. The five-field bullet list became a comma-separated sentence.
+  Largest structural change of any model.
+- **Added:** "Here's the deal" as an opener. No greeting; the source's "Hello
+  [name]" is gone. "doesn't count" replacing "it is not an opportunity to book
+  a slot simply because you are happy to see me back".
+- **Tone:** punchy and conversational. "Here's the deal" and "doesn't count"
+  are on-voice, but they are the editor's additions, not the sender's.
+- **Length:** shortest of the three. Heaviest compression.
+- **Ship:** no. The three-step structure was functional content; collapsing it
+  makes the application harder to follow. Dropping "Hello [name]" from an
+  outreach email is a real loss. And "Shoot your shot" was the most
+  distinctive line in the source.
 
 ---
 
