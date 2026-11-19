@@ -310,13 +310,34 @@
 
 ## Summary
 
-**Guardrail result:** pass. No banned words, no em dashes, no invented facts.
+**Guardrail result:** pass on all four models. Zero banned words, zero em
+dashes, zero invented facts.
 
-**Finding:** the model preserved every instruction and every required field, but
-deleted the writer's promise to listen and assess. Voice rules push toward short
-sentences and the model took that as licence to cut content. This is the first
-case where the voice damaged the message rather than the facts.
+**Finding:** every model shortened the email, and every model damaged it
+differently. No hard rule broke. The prompt protected the facts and failed to
+protect the sender's voice.
 
-**Carry to v2:** add one line to Rewrite mode. Compression must come from
-preamble and repetition, never from promises made to the reader. If unsure,
-keep it.
+**Cross-model convergence:**
+
+- **"Shoot your shot" was dropped by 3 of 4** (GPT, Gemini, Kimi). Only Claude
+  kept it. Three different model families independently deleting the same
+  distinctive line points at the prompt's compression rule, not the model.
+- **The promise to listen and assess** survived only in GPT. Claude deleted it,
+  Gemini substituted "My goal is to show you", Kimi replaced it with a
+  different promise.
+- **The three-part promise** (what's possible, what's holding you back, what to
+  do next) survived in GPT and Gemini. Claude and Kimi dropped all three.
+- **The eligibility screen** lost its sharpest line in Gemini only: "not an
+  opportunity to book a slot simply because you are happy to see me back" was
+  cut entirely.
+- **Structure:** Kimi collapsed the three steps into one paragraph and dropped
+  the greeting. Gemini's nested bullets lost their indentation. Claude and GPT
+  kept the steps.
+- **Minor convergence:** "just to be nice" appeared in both Gemini and Kimi
+  independently. Not a failure, but watch whether it becomes a cross-model tell.
+
+**Reading:** "Delete any first sentence that carries no information" and "short
+sentences" are being read as licence to cut content, including content doing
+real work. Four models, four different casualties, one cause.
+
+**Carry to v2:** see v2 carry list, items 1 to 3.
