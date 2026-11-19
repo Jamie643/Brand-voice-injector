@@ -58,39 +58,47 @@
 
 ---
 
-## Output: GPT-6 Instant
+## Output: Gemini Auto
 
-> Hello everyone,
+> Hi everyone,
 >
-> Tandem has provided Christmas gifts for staff and shareholders as part of
-> this year's celebrations.
+> Tandem is sending out Christmas gifts to staff and shareholders this year.
+> You can pick between two options: a $40k voucher, or a bag of rice and 3
+> litres of vegetable oil.
 >
-> You can choose one of two options:
+> Reply to this email with your choice by [deadline date] so we can get your
+> order sorted.
 >
-> - A voucher worth $40k.
-> - A bag of rice and 3 litres of vegetable oil.
+> If you go with the rice and oil, let us know where to deliver it: [delivery
+> details or office pickup instructions]. If you choose the voucher, we'll send
+> it to this email address on [distribution date].
 >
-> Please let us know which option you'd prefer so we can make the necessary
-> arrangements.
->
-> Happy holidays from all of us at Tandem.
+> Thanks for a solid year. Let us know what you want before [deadline date].
 
-### Notes: GPT-6 Instant
+### Notes: Gemini Auto
 
-- **Banned words:** 0. "make the necessary arrangements" is filler-adjacent but
-  not on the list.
+- **Banned words:** 0
 - **Em dashes:** 0
-- **Facts kept:** voucher value ($40k), rice and oil, both options
-- **Facts invented:** none
-- **Guardrail failure (soft):** no bracketed placeholders. The prompt instructs
-  bracketed notes when a needed fact is missing. GPT silently wrote around the
-  gap instead. The email has no deadline, no reply path and no sender, and
-  nothing signals that to the reader. It reads complete and isn't.
-- **Length:** shorter than Claude's. One paragraph, bullets, sign-off.
-- **Tone:** off voice. No dry line anywhere. "Happy holidays from all of us at
-  Tandem" is warmth theatre, which the voice block rules out.
-- **Ship:** no. Missing a deadline and a reply path, and the voice is generic.
-
+- **Facts kept:** $40k voucher, rice and oil, both options
+- **Facts invented:** none stated as fact, **but Gemini added a distribution
+  process the brief never described**: "we'll send it to this email address"
+  invents the send channel, and "[delivery details or office pickup
+  instructions]" invents that pickup is an option. Bracketed, so not a factual
+  claim, but the structure around the gap is inferred.
+- **Placeholder approach:** the fourth reading. Inline in the body,
+  **descriptive** ("[deadline date]", "[delivery details or office pickup
+  instructions]"), and the deadline is repeated at both points where it
+  matters: the reply call to action and the closing line.
+- **Assessment:** best of the four for a writer. Claude's were bare, Kimi's
+  were meta-notes, GPT had none. These tell you what to supply and offer
+  options where there are obvious ones.
+- **Tone:** strongest of the four. "so we can get your order sorted", "Thanks
+  for a solid year", "Let us know what you want before [deadline date]". Two
+  dry beats rather than one, which breaks the "at most one dry line" rule but
+  reads better than GPT's zero.
+- **Length:** medium, comparable to Claude.
+- **Ship:** closest to yes of the four. Remove or confirm the send-channel
+  assumption, fill both deadlines.
 ---
 
 ## Output: GPT-6 Instant
