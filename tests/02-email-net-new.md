@@ -176,15 +176,31 @@
 
 ## Summary
 
-**Guardrail result:** pass. No banned words, no em dashes, no invented facts.
+**Guardrail result:** facts pass on all four. The placeholder rule failed on
+three of four, in three different ways.
 
-**Finding:** Net-new mode correctly refuses to supply specifics the brief does
-not contain, and surfaces them as bracketed notes the writer fills in. This is
-the intended behaviour and the strongest result in this run.
+**The `[bracketed note]` instruction is ambiguous.** Four models, four readings:
 
-**Open question:** the brief did not specify a deadline, store, or sender. A
-human had to fill four placeholders before this email could go out. Is that the
-right trade-off, or should net-new mode ask the user for missing details
-first? Decide after the cross-model run.
+| Model | Reading | Effect |
+|---|---|---|
+| Claude | Inline placeholders, body only | Usable once filled |
+| GPT | Wrote around the gap silently | Looks finished, isn't |
+| Kimi | Writer meta-note plus one inline bracket | Most diagnostic, least usable |
+| Gemini | Descriptive inline placeholders, repeated where they matter | Best of the four |
 
-**Carry to v2:** none. Case passes.
+The instruction was doing three jobs at once: flag the gap, place the gap, tell
+the writer what to do. Each model picked a different one.
+
+**Second finding: voice collapses in net-new mode.** GPT wrote zero dry lines
+and closed with "Happy holidays from all of us at Tandem", which the voice
+block rules out. Claude and Kimi managed one each. Gemini managed two and the
+best closer ("Let us know what you want before [deadline date]"). With no source
+cadence to copy, models default to corporate warmth.
+
+**Third finding: Gemini added logistics as structure.** "we'll send it to this
+email address" and "[delivery details or office pickup instructions]" assume a
+distribution process the brief never described. Bracketed, so not a fact claim,
+but the shape around the gap is invented. The only model that inferred a
+process.
+
+**Carry to v2:** see v2 carry list, items 4 and 5.
