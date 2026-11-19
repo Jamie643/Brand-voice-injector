@@ -110,6 +110,75 @@
 
 ---
 
+## Output: Gemini Auto
+
+> Hi [name],
+>
+> I'm opening a few free one-on-one phone consultation slots for graduates
+> planning to study abroad in 2027 who are stuck on a real hurdle in the
+> process.
+>
+> On the call, you'll explain your situation, ask your questions, and get my
+> honest take on your options and next steps. I won't tell you what you want to
+> hear just to be nice. My goal is to show you what's realistic, what's holding
+> you back, and what you should do next.
+>
+> To be clear: this is only for people who are serious about studying abroad in
+> 2027 and ready to act on the advice. It's not a general catch-up call, and my
+> time is limited.
+>
+> If that sounds like you, here's how to request a slot:
+>
+> 1. **Send an email** to [email]
+> 2. **Use the subject line:** Request to Speak with [sender name] on Phone
+> 3. **Include these details:**
+> * Your full name
+> * The country where you currently live
+> * Your WhatsApp number (with international country code)
+> * Your intended study destination, if you've picked one
+> * A brief summary of your 2027 study plans, the specific challenge you're
+> facing, and what you want to discuss
+>
+> Be specific so I can see where things stand. I'll review every email
+> personally and reach out directly to selected applicants based on fit and
+> slot availability.
+>
+> P.S. Sending an email doesn't guarantee a call.
+
+### Notes: Gemini Auto
+
+- **Banned words:** 0
+- **Em dashes:** 0
+- **Facts kept:** 2027 target, email address, subject line verbatim, all five
+  required fields, review process, no-guarantee P.S. "complimentary" became
+  "free", same as Claude.
+- **Facts dropped:** "speak with me directly", "Let's discuss and resolve those
+  challenges", "automatically" from the P.S. "I will listen, assess your
+  situation" replaced with "My goal is to show you".
+- **Facts altered:** "a limited number of" became "a few", which weakens the
+  scarcity the sender is using to create urgency. "may be eligible to book a
+  call" became "here's how to request a slot", softening the eligibility
+  screen.
+- **Sharpest loss:** the entire clause "it is not an opportunity to book a slot
+  simply because you are happy to see me back" is gone. Gemini is the only
+  model that removed it, and it is the line doing the screening work in the
+  source.
+- **Kept:** the three-part promise ("what's realistic, what's holding you back,
+  what you should do next"). Only GPT and Gemini kept all three.
+- **Dropped:** "Shoot your shot". Third of four models to cut it.
+- **Formatting defect:** the sub-bullets under step 3 lost their indentation
+  (`*` at zero indent), so they render as a flat list detached from the step.
+  Also a stray double blank line before "Be specific".
+- **Added:** "just to be nice", the same phrase Kimi used. "so I can see where
+  things stand".
+- **Tone:** "stuck on a real hurdle" lands close to Claude's "stuck on
+  something". "honest take" instead of "honest feedback".
+- **Ship:** no. The eligibility screen lost its sharpest line, and "a limited
+  number" became "a few".
+
+
+---
+
 ## Output: GPT-6 Instant
 
 > Hello [name],
@@ -181,17 +250,6 @@
   forward". "A few things worth being clear about" softens the source's "But I
   need to be very clear about something."
 - **Ship:** no. Restore "shoot your shot" and the hard line on clarity.
-
-
----
-
-## Output: ChatGPT
-
-> Pending
-
-### Notes: ChatGPT
-
-> Pending
 
 ---
 
